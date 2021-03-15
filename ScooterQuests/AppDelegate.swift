@@ -6,17 +6,16 @@
 //
 
 import UIKit
+import YandexMapsMobile
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        YMKMapKit.setApiKey("3ebf351d-20fb-465b-9c6f-207b2e0243cc")
         return true
     }
-
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
