@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        YMKMapKit.setApiKey("3ebf351d-20fb-465b-9c6f-207b2e0243cc")
+        YMKMapKit.setApiKey("ключик")
         return true
     }
     // MARK: UISceneSession Lifecycle
